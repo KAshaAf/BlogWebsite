@@ -1,0 +1,9 @@
+.middleSection{
+    display: flex;
+    justify-content: center;
+    margin: 40px 125px;
+}
+.middle h1{
+    margin-left: 143px;
+    margin-top: 51px;
+}

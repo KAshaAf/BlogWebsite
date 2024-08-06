@@ -1,0 +1,20 @@
+.bottom-section {
+    display: flex;
+    justify-content: center;
+    background-color: #f8f9fa!important;
+    padding: 75px;
+}
+
+.bottom-blogs {
+    display: flex;
+    justify-content: space-evenly;
+}
+.top-blog .blog-thumbnail-1 {
+    width: 627px;
+    height: 347px;
+}
+
+.left-side .single-blog.blog-thumbnail-5 {
+    height: 555px;
+    width: 354px;
+}
