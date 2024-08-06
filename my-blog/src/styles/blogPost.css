@@ -1,0 +1,10 @@
+.bp-main-content{
+    display: flex;
+}
+.bp-left{
+    width: 70%;
+    margin: 50px 140px;
+}
+.bp-right{
+    width: 30%;
+}

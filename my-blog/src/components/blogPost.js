@@ -5,6 +5,9 @@ import blogs from '../data/blogs';
 import Comments from './comments';
 import BottomSection from './BottomSection';
 import NewsLetter from './newsLetter';
+import BlogContent from './blogContent';
+import '../styles/blogPost.css';
+import BlogHeader from './blogHeader';
 
 function BlogPost() {
   const { id } = useParams();
@@ -15,14 +18,16 @@ function BlogPost() {
   }
 
   return (
-    <div>
-      <img src={ require('../assets/' + blog.thumbnail) } alt='thumbnail' className='thumbnail-img'/>
-      <span>{blog.category}</span>
-      <h1>{blog.title}</h1>
-      <p>{blog.bio}</p>
-      <p>By {blog.author} - {blog.date}</p>
-      <hr></hr>
-      <Comments />
+    <div className='blog-post'>
+      <BlogHeader blog={blog} />
+      <div className='bp-main-content'>
+      <div className='bp-left'>
+      <BlogContent media={blog.media} content={blog.content} />
+      </div>
+      <div className='bp-right'>
+      <h1>Here is some content</h1>
+      </div>
+      </div>
       <NewsLetter />
       <BottomSection />
     </div>

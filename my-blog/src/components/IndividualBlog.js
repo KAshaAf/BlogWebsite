@@ -9,7 +9,7 @@ const IndividualBlog = ({ item }) => {
         <p className='category'>{item.category[0]} </p>
         <h2>{item.title}</h2>
         <p className='blog-details'>By {item.author} - <span>{item.date}</span></p>
-        <p className='blog-content'>{item.content}</p>
+        <p className='blog-content'>{item.bio}</p>
         <Link to={`/post/${item.id}`}>Read More</Link>
     </div>
   );

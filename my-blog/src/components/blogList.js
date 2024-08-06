@@ -9,7 +9,7 @@ function BlogList() {
         <div key={blog.id}>
           <span>{blog.category}</span>
           <h2>{blog.title}</h2>
-          <p>{blog.content}</p>
+          <p>{blog.bio}</p>
           <p>By {blog.author} - {blog.date}</p>
           <Link to={`/post/${blog.id}`}>Read More</Link>
         </div>

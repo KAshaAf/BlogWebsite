@@ -1,0 +1,17 @@
+.mg-bottom{
+    display: flex;
+    justify-content: center;
+}
+.media-gallery{
+    text-align: center;
+    margin: 50px auto;
+}
+.mg-top img.blog-media {
+    width: 666px;
+    height: auto;
+}
+.mg-bottom img.blog-media {
+    width: 325px;
+    height: auto;
+    margin: 10px;
+}
