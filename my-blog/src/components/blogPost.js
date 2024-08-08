@@ -2,12 +2,12 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
 import blogs from '../data/blogs';
-import Comments from './comments';
 import BottomSection from './BottomSection';
 import NewsLetter from './newsLetter';
 import BlogContent from './blogContent';
 import '../styles/blogPost.css';
 import BlogHeader from './blogHeader';
+import AuthorInfo from './authorInfo';
 
 function BlogPost() {
   const { id } = useParams();
@@ -25,7 +25,7 @@ function BlogPost() {
       <BlogContent media={blog.media} content={blog.content} />
       </div>
       <div className='bp-right'>
-      <h1>Here is some content</h1>
+      <AuthorInfo authorName={blog.author.toLowerCase()} />
       </div>
       </div>
       <NewsLetter />

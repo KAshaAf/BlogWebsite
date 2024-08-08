@@ -19,7 +19,6 @@ const blogs = [
       media: ['img_3.jpg.webp', 'img_2.jpg', 'img_1.jpg.webp'],
       tags: [''],
       bio: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo sunt tempora dolor laudantium sed optio, explicabo ad deleniti impedit facilis fugit recusandae! Illo, aliquid, dicta beatae quia porro id est.',
-      
     },
     {
       id: 2,
@@ -37,7 +36,7 @@ const blogs = [
       ],      
       category: ['sports'],
       date: '27 July 2024',
-      author: 'Craig Davidson',
+      author: 'Laura Maison',
       media: ['img_2.jpg', 'img_4.jpg.webp', 'img_1.jpg.webp'],
       bio: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo sunt tempora dolor laudantium sed optio, explicabo ad deleniti impedit facilis fugit recusandae! Illo, aliquid, dicta beatae quia porro id est.',
     },
@@ -77,7 +76,7 @@ const blogs = [
     ],    
     category: ['sports'],
     date: '27 July 2024',
-    author: 'Craig Davidson',
+    author: 'Laura Maison',
     media: ['img_1.jpg.webp', 'img_2.jpg', 'img_3.jpg.webp'],
     bio: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo sunt tempora dolor laudantium sed optio, explicabo ad deleniti impedit facilis fugit recusandae! Illo, aliquid, dicta beatae quia porro id est.',
     },

@@ -10,6 +10,7 @@ import Politics from './pages/Politics';
 import Home from './pages/Home';
 import Footer from './components/footer';
 import BlogPost from './components/blogPost';
+import AdminPanel from './pages/AdminPanel';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path="/entertainment" element={<Entertainment />} />
           <Route path="/travel" element={<Travel />} />
           <Route path="/post/:id" element={<BlogPost />} />
+          <Route path="/admin" element={<AdminPanel />} />
         </Routes>
         <Footer />
     </Router>
