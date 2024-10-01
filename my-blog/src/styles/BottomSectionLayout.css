@@ -18,3 +18,12 @@
     height: 555px;
     width: 354px;
 }
+.top-blog a, .bottom-blogs a, .left-side a {
+    text-decoration: none;
+    color: black;
+}
+.category-tag {
+    display: flex;
+    justify-content: start;
+    gap: 14px;
+}

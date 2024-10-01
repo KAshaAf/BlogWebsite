@@ -1,8 +1,9 @@
 .author-photo{
-    width: 150px;
-    height: 150px;
+    width: 160px;
+    height: 160px;
     border-radius: 50%;
 }
 .author-info{
     text-align: center;
+    padding: 0px 50px 50px;
 }

@@ -1,3 +1,6 @@
+import '../data/categories';
+import categories from '../data/categories';
+
 const blogs = [
     {
       id: 1,
@@ -13,11 +16,24 @@ const blogs = [
         'Illo magnam at dolore ad enim fugiat ut maxime facilis autem, nulla cumque quis commodi eos nisi unde soluta, ipsa eius aspernatur sint atque! Nihil, eveniet illo ea, mollitia fuga accusamus dolor dolorem perspiciatis rerum hic, consectetur error rem aspernatur!',
         'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus magni explicabo id molestiae, minima quas assumenda consectetur, nobis neque rem, incidunt quam tempore perferendis provident obcaecati sapiente, animi vel expedita omnis quae ipsa! Obcaecati eligendi sed odio labore vero reiciendis facere accusamus molestias eaque impedit, consequuntur quae fuga vitae fugit?',
       ],
-      category: ['sports'],
+      category: [
+        {
+          id: 1,
+          name: "Travel",
+          color: "red",
+          count: 34,
+      },
+      {
+          id: 2,
+          name: "Adventure",
+          color: "blue",
+          count: 28,
+      }
+      ],
       date: '27 July 2024',
       author: 'Craig Davidson',
       media: ['img_3.jpg.webp', 'img_2.jpg', 'img_1.jpg.webp'],
-      tags: [''],
+      tags: ['#manial', '#asia'],
       bio: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo sunt tempora dolor laudantium sed optio, explicabo ad deleniti impedit facilis fugit recusandae! Illo, aliquid, dicta beatae quia porro id est.',
     },
     {
@@ -34,9 +50,17 @@ const blogs = [
         'Illo magnam at dolore ad enim fugiat ut maxime facilis autem, nulla cumque quis commodi eos nisi unde soluta, ipsa eius aspernatur sint atque! Nihil, eveniet illo ea, mollitia fuga accusamus dolor dolorem perspiciatis rerum hic, consectetur error rem aspernatur!',
         'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus magni explicabo id molestiae, minima quas assumenda consectetur, nobis neque rem, incidunt quam tempore perferendis provident obcaecati sapiente, animi vel expedita omnis quae ipsa! Obcaecati eligendi sed odio labore vero reiciendis facere accusamus molestias eaque impedit, consequuntur quae fuga vitae fugit?',
       ],      
-      category: ['sports'],
+      category: [ 
+      {
+        id: 3,
+        name: "Food",
+        color: "green",
+        count: 11,
+      },
+      ],
       date: '27 July 2024',
       author: 'Laura Maison',
+      tags:['#manial', '#asia'],
       media: ['img_2.jpg', 'img_4.jpg.webp', 'img_1.jpg.webp'],
       bio: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo sunt tempora dolor laudantium sed optio, explicabo ad deleniti impedit facilis fugit recusandae! Illo, aliquid, dicta beatae quia porro id est.',
     },
@@ -54,9 +78,23 @@ const blogs = [
       'Illo magnam at dolore ad enim fugiat ut maxime facilis autem, nulla cumque quis commodi eos nisi unde soluta, ipsa eius aspernatur sint atque! Nihil, eveniet illo ea, mollitia fuga accusamus dolor dolorem perspiciatis rerum hic, consectetur error rem aspernatur!',
       'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus magni explicabo id molestiae, minima quas assumenda consectetur, nobis neque rem, incidunt quam tempore perferendis provident obcaecati sapiente, animi vel expedita omnis quae ipsa! Obcaecati eligendi sed odio labore vero reiciendis facere accusamus molestias eaque impedit, consequuntur quae fuga vitae fugit?',
     ],    
-    category: ['sports', 'travel'],
+    category: [
+      {
+        id: 4,
+        name: "Lifestyle",
+        color: "orange",
+        count: 21,
+    },
+    {
+        id: 5,
+        name: "Business",
+        color: "purple",
+        count: 5,
+    },
+    ],
     date: '27 July 2024',
     author: 'Craig Davidson',
+    tags: ['#manial', '#asia'],
     media: ['img_2.jpg', 'img_3.jpg.webp', 'img_4.jpg.webp'],
     bio: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo sunt tempora dolor laudantium sed optio, explicabo ad deleniti impedit facilis fugit recusandae! Illo, aliquid, dicta beatae quia porro id est.',
     },
@@ -74,9 +112,17 @@ const blogs = [
       'Illo magnam at dolore ad enim fugiat ut maxime facilis autem, nulla cumque quis commodi eos nisi unde soluta, ipsa eius aspernatur sint atque! Nihil, eveniet illo ea, mollitia fuga accusamus dolor dolorem perspiciatis rerum hic, consectetur error rem aspernatur!',
       'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus magni explicabo id molestiae, minima quas assumenda consectetur, nobis neque rem, incidunt quam tempore perferendis provident obcaecati sapiente, animi vel expedita omnis quae ipsa! Obcaecati eligendi sed odio labore vero reiciendis facere accusamus molestias eaque impedit, consequuntur quae fuga vitae fugit?',
     ],    
-    category: ['sports'],
+    category:[
+      {
+        id: 6,
+        name: "Freelancing",
+        color: "gray",
+        count: 45,
+    },
+    ],
     date: '27 July 2024',
     author: 'Laura Maison',
+    tags: ['#manial', '#asia'],
     media: ['img_1.jpg.webp', 'img_2.jpg', 'img_3.jpg.webp'],
     bio: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo sunt tempora dolor laudantium sed optio, explicabo ad deleniti impedit facilis fugit recusandae! Illo, aliquid, dicta beatae quia porro id est.',
     },
@@ -94,9 +140,23 @@ const blogs = [
         'Illo magnam at dolore ad enim fugiat ut maxime facilis autem, nulla cumque quis commodi eos nisi unde soluta, ipsa eius aspernatur sint atque! Nihil, eveniet illo ea, mollitia fuga accusamus dolor dolorem perspiciatis rerum hic, consectetur error rem aspernatur!',
         'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus magni explicabo id molestiae, minima quas assumenda consectetur, nobis neque rem, incidunt quam tempore perferendis provident obcaecati sapiente, animi vel expedita omnis quae ipsa! Obcaecati eligendi sed odio labore vero reiciendis facere accusamus molestias eaque impedit, consequuntur quae fuga vitae fugit?',
       ],      
-      category: ['sports'],
+      category: [
+        {
+          id: 7,
+          name: "Sports",
+          color: "pink",
+          count: 9,
+      },
+      {
+        id: 1,
+        name: "Travel",
+        color: "red",
+        count: 34,
+      },
+      ],
       date: '27 July 2024',
       author: 'Craig Davidson',
+      tags: ['#manial', '#asia'],
       media: ['img_4.jpg.webp', 'img_1.jpg.webp', 'img_2.jpg'],
       bio: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo sunt tempora dolor laudantium sed optio, explicabo ad deleniti impedit facilis fugit recusandae! Illo, aliquid, dicta beatae quia porro id est.',
       }

@@ -6,13 +6,6 @@
     text-decoration: none;
     color: blue;
 }
-.category{
-    background-color: orange;
-    padding: 5px 9px;
-    border-radius: 2px;
-    width: 55px;
-    text-transform: uppercase;
-}
 .thumbnail-img{
     width: 100%;
     height: auto;

@@ -8,6 +8,10 @@ import BlogContent from './blogContent';
 import '../styles/blogPost.css';
 import BlogHeader from './blogHeader';
 import AuthorInfo from './authorInfo';
+import PopularPosts from './popularPosts';
+import Categories from './Categories';
+import Tags from './Tags';
+import MetaInfo from './metaInfo';
 
 function BlogPost() {
   const { id } = useParams();
@@ -26,8 +30,12 @@ function BlogPost() {
       </div>
       <div className='bp-right'>
       <AuthorInfo authorName={blog.author.toLowerCase()} />
+      <PopularPosts />
+      <Categories />
+      <Tags />
       </div>
       </div>
+      <MetaInfo category={blog.category} tags={blog.tags}/>
       <NewsLetter />
       <BottomSection />
     </div>

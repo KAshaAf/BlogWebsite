@@ -7,3 +7,4 @@ img.header-img {
     position: relative;
     bottom: 400px;
 }
+.blog-post .header-content .category-tag {justify-content: center;}

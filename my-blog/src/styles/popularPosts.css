@@ -1,0 +1,13 @@
+.single-post{
+    display: flex;
+    margin: 10px;
+}
+.blog-thumbnail {
+    width: 100px;
+    height: auto;
+    margin-right: 35px;
+}
+.popular-posts a {
+    text-decoration: none;
+    color: black;
+}

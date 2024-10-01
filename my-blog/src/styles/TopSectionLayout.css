@@ -37,6 +37,7 @@
     background-image: url('C:\Users\kashaf.mehmood\OneDrive - Astera Software\Documents\BlogWebsite\my-blog\src\assets\img_4.jpg.webp');
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
 }
 .single-blog {
     width: 285px;

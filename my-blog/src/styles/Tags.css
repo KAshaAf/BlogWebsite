@@ -1,0 +1,11 @@
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.single-tag {
+    margin: 3px;
+    background-color: cornsilk;
+    padding: 0px 8px;
+    border-radius: 4px;
+}

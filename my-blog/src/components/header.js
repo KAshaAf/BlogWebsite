@@ -1,7 +1,8 @@
 // src/components/Header.js
 import React from 'react';
 import { Link } from 'react-router-dom';
-import '../styles/header.css'; // Import the CSS file
+import '../styles/header.css'; 
+import SearchBar from './searchBar';
 
 function Header() {
   return (
@@ -30,7 +31,7 @@ function Header() {
             <Link to="/travel">Travel</Link>
           </li>
           <li>
-            <Link to="/">Search</Link>
+            <Link to="/"><SearchBar /></Link>
           </li>
         </ul>
       </nav>

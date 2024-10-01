@@ -8,8 +8,8 @@ const TopSectionLayout = ({ data }) => {
             <div className='two-blogs'>
             <Link to={`/post/${data[0].id}`}>
             <div className='single-blog blog-thumbnail-1'>
-                    <h3>{data[0].title}</h3>
-                    <p>{data[0].date}</p>
+            <h3>{data[0].title}</h3>
+            <p>{data[0].date}</p>
             </div>
             </Link>
             <Link to={`/post/${data[1].id}`}>
@@ -21,6 +21,13 @@ const TopSectionLayout = ({ data }) => {
             </div>
             <Link to={`/post/${data[2].id}`}>
             <div className="one-blog blog-thumbnail-3">
+            <div className='category-tag'>
+              {data[2].category.map(cat => (
+                <p style={{ color: 'white', backgroundColor: cat.color, padding: '5px', borderRadius: '5px', textTransform: 'uppercase', fontSize: '12px', fontWeight: 'bold' }}>
+                    {cat.name}
+                </p>
+                ))}
+              </div>
             <h3>{data[2].title}</h3>
             <p>{data[2].date}</p>
             </div>
