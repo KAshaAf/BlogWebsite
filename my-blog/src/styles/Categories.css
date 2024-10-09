@@ -5,9 +5,10 @@
 }
 
 .categories ul li {
-    padding: 6px;
-    font-size: 18px;
+    padding: 0px 11px;
+    font-size: 16px;
     border-top: 1px solid #ccc;
+    color: #2f89fc;
 }
 
-span.cat-count {position: relative;float: inline-end;}
+span.cat-count {position: relative;float: inline-end;color: #ccc;}

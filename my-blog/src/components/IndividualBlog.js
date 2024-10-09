@@ -14,7 +14,7 @@ const IndividualBlog = ({ item }) => {
             ))}
         </div>
         <h2>{item.title}</h2>
-        <p className='blog-details'>By {item.author} - <span>{item.date}</span></p>
+        <p className='blog-details'><span className='author-img'><img src={ require('../assets/person_1.jpg.webp') } alt='author'/></span>By {item.author} - <span>{item.date}</span></p>
         <p className='blog-content'>{item.bio}</p>
         <Link to={`/post/${item.id}`}>Read More</Link>
     </div>

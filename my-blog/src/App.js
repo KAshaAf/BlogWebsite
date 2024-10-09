@@ -11,6 +11,7 @@ import Home from './pages/Home';
 import Footer from './components/footer';
 import BlogPost from './components/blogPost';
 import AdminPanel from './pages/AdminPanel';
+import AuthorProfile from './components/authorProfile';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
           <Route path="/travel" element={<Travel />} />
           <Route path="/post/:id" element={<BlogPost />} />
           <Route path="/admin" element={<AdminPanel />} />
+          <Route path="/author/:id" element={<AuthorProfile />} />
         </Routes>
         <Footer />
     </Router>

@@ -12,6 +12,7 @@ import PopularPosts from './popularPosts';
 import Categories from './Categories';
 import Tags from './Tags';
 import MetaInfo from './metaInfo';
+import CommentForm from './commentForm';
 
 function BlogPost() {
   const { id } = useParams();

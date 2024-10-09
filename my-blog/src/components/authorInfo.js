@@ -12,7 +12,7 @@ function AuthorInfo  ({ authorName }) {
     <img src={require(`../assets/${authorInfo.photo}`)} alt={authorInfo.name} className="author-photo" />
     <h3>{authorInfo.name}</h3>
     <p>{authorInfo.bio}</p>
-    <Link to={`/`}>Read More</Link>
+    <Link to={`/author/${authorInfo.id}`}>Read More</Link>
    </div>
   );
 };
