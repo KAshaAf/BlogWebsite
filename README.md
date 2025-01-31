@@ -42,7 +42,7 @@ blog-app/
 │   │-- index.js
 │-- package.json
 │-- README.md
-```
+
 
 Future Improvements
 - Add a backend for dynamic content
