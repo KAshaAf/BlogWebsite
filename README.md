@@ -10,7 +10,7 @@ Features
 Technologies Used
 - React
 - React Router (if used for navigation)
-- CSS (or Tailwind, Bootstrap, etc., if applicable)
+- CSS 
 
 Installation
 1. Clone the repository:
@@ -29,20 +29,6 @@ Usage
 - Open `http://localhost:3000` in your browser.
 - Browse through the list of blog posts.
 - Click on a post to view its details.
-
-Folder Structure
-
-blog-app/
-│-- public/
-│-- src/
-│   │-- components/
-│   │-- pages/
-│   │-- assets/
-│   │-- App.js
-│   │-- index.js
-│-- package.json
-│-- README.md
-
 
 Future Improvements
 - Add a backend for dynamic content
